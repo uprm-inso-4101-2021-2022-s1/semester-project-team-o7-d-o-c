@@ -1,0 +1,29 @@
+import React from 'react';
+import './Button.css';
+
+const Styles = ['button--primary', 'button--outline']
+
+const Sizes = ['button--medium', 'button--large', 'button--mobile', 'button--wide']
+
+const Color = ['primary', 'blue', 'red', 'green']
+
+export const Button = ({
+    children,
+    type, 
+    onClick, 
+    buttonStyle, 
+    buttonSize, 
+    buttonColor}) => { 
+        
+    const checkButtonStyle = Styles.includes(buttonStyle) ? buttonStyle : Styles[0]
+
+    const checkButtonSize = Styles.includes(buttonSize) ? buttonSize : Sizes[0]
+
+    const checkButtonColor = Styles.includes(buttonColor) ? buttonColor : Color[0]
+
+    return (
+        <button className={`button ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`} onClick={onClick} type={type}>
+            {children}        
+        </button>
+    )
+}
