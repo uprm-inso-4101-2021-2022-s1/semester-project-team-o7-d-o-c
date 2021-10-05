@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/semester-project-team-o7-d-o-c/static/css/main.a617e044.chunk.css",
+    "main.js": "/semester-project-team-o7-d-o-c/static/js/main.96e07279.chunk.js",
+    "main.js.map": "/semester-project-team-o7-d-o-c/static/js/main.96e07279.chunk.js.map",
+    "runtime-main.js": "/semester-project-team-o7-d-o-c/static/js/runtime-main.20dca67a.js",
+    "runtime-main.js.map": "/semester-project-team-o7-d-o-c/static/js/runtime-main.20dca67a.js.map",
+    "static/js/2.113475f0.chunk.js": "/semester-project-team-o7-d-o-c/static/js/2.113475f0.chunk.js",
+    "static/js/2.113475f0.chunk.js.map": "/semester-project-team-o7-d-o-c/static/js/2.113475f0.chunk.js.map",
+    "static/js/3.40569e3d.chunk.js": "/semester-project-team-o7-d-o-c/static/js/3.40569e3d.chunk.js",
+    "static/js/3.40569e3d.chunk.js.map": "/semester-project-team-o7-d-o-c/static/js/3.40569e3d.chunk.js.map",
+    "index.html": "/semester-project-team-o7-d-o-c/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/semester-project-team-o7-d-o-c/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.113475f0.chunk.js.LICENSE.txt": "/semester-project-team-o7-d-o-c/static/js/2.113475f0.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/semester-project-team-o7-d-o-c/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20dca67a.js",
+    "static/js/2.113475f0.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.96e07279.chunk.js"
+  ]
+}
