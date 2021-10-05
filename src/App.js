@@ -11,7 +11,7 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://en.wikipedia.org/wiki/Jellyfish"
           target="_blank"
           rel="noopener noreferrer"
         >
