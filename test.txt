@@ -1,0 +1,2 @@
+Hello this is a test if i can commit this and a partner can see this
+by pulling the empty repo. :)
