@@ -56,7 +56,7 @@
 
 .button--large:hover, .button--medium:hover, .button--mobile:hover{
     transition: all 0.3s ease-out;
-    background: #fff;
+    background: rgb(175, 226, 116);
     color: #242424;
 }
 
