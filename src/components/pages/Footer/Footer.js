@@ -4,12 +4,12 @@ import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import {
   FaGithub,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
+  // FaInstagram,
+  // FaYoutube,
+  // FaTwitter,
   FaLinkedin
 } from 'react-icons/fa';
-import { MdFingerprint, MdMedication } from 'react-icons/md';
+import { MdMedication } from 'react-icons/md';
 
 function Footer() {
   return (
@@ -54,7 +54,7 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Sign-Up Process</Link>
-            <Link to='/'>How to Register Your Docto's Office</Link>
+            <Link to='/'>How to Register Your Doctor's Office</Link>
             <Link to='/'>Getting Notified</Link>
           </div>
           <div className='footer-link-items'>
