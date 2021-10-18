@@ -6,7 +6,11 @@ import { Button } from './Button';
 import'./Navbar.css'
 import { IconContext } from 'react-icons/lib';
 
+import {useHistory} from "react-router-dom";
+
 function Navbar() {
+    let history = useHistory(); 
+
 
     const [click, setClick] = useState(false);
     const [button, setButton] = useState(true);
@@ -28,7 +32,7 @@ function Navbar() {
             <IconContext.Provider value={{color: '#fff'}}>
                 <nav className="navbar">
                     <div className="navbar-container container">
-                        <Link to = '/' className="navbar-logo" onClick={closeMobileMenu}>
+                        <Link to = '/home' className="navbar-logo" onClick={closeMobileMenu}>
                             <MdMedication className="navbar-icon" />
                             D.O.C.
                         </Link>
@@ -37,7 +41,7 @@ function Navbar() {
                         </div>
                         <ul className={click ? 'navbar-menu active' : 'navbar-menu'}>
                             <li className="navbar-item">
-                                <Link to ='/' className="navbar-links" onClick={closeMobileMenu}>
+                                <Link to ='/home' className="navbar-links" onClick={closeMobileMenu}>
                                     Home
                                 </Link>
                             </li>

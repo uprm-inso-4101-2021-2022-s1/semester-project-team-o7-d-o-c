@@ -67,7 +67,7 @@ function Footer() {
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/home' className='social-logo'>
               <MdMedication className='navbar-icon' />
               D.O.C
             </Link>

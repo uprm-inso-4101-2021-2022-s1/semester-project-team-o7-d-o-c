@@ -8,7 +8,7 @@ function Home() {
     <>
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
-      <Pricing />
+      {/*<Pricing />*/}
       <HeroSection {...homeObjThree} />
     </>
   );

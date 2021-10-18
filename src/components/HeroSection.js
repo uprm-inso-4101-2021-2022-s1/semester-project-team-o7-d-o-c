@@ -13,7 +13,7 @@ function HeroSection({
   buttonLabel,
   img,
   alt,
-  imgStart,
+  imgStart
 }) {
   return (
     <>
@@ -25,8 +25,7 @@ function HeroSection({
             className="row home__hero-row"
             style={{
               display: "flex",
-              flexDirection: imgStart === "start" ? "row-reverse" : "row",
-            }}
+              flexDirection: imgStart === "start" ? "row-reverse" : "row"}}
           >
             <div className="col">
               <div className="home__hero-text-wrapper">
@@ -35,12 +34,7 @@ function HeroSection({
                   {headline}
                 </h1>
                 <p
-                  className={
-                    lightTextDesc
-                      ? "home__hero-subtitle"
-                      : "home__hero-subtitle dark"
-                  }
-                >
+                  className={lightTextDesc ? "home__hero-subtitle" : "home__hero-subtitle dark"}>
                   {description}
                 </p>
                 <Link to="/sign-up">
