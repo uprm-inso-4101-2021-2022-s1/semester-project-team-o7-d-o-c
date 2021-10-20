@@ -56,19 +56,19 @@ function Navbar() {
                                 </Link>
                             </li>
                             <li className="navbar-item">
-                                <Link to ='/services' className="navbar-links" onClick={closeMobileMenu}>
+                                <Link to ='/footer-container' className="navbar-links" onClick={closeMobileMenu}>
                                     About Us
                                 </Link>
                             </li>
                         </ul>
                         <div className="navbar-button">
                             {button ? (
-                                <Link to ='/sign in' className="button--link">
+                                <Link to ='/login' className="button--link">
                                     <Button buttonStyle = 'button--outline'>
                                         SIGN IN
                                     </Button>
                                 </Link>) : (
-                                    <Link to = '/sign in'  className="button-link">
+                                    <Link to = '/login'  className="button-link">
                                         <Button buttonstyle = 'button--outline' buttonSize='button--mobile' onClick={closeMobileMenu}>
                                             SIGN IN
                                         </Button>

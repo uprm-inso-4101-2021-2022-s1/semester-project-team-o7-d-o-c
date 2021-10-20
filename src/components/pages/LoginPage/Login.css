@@ -1,0 +1,11 @@
+.formCenter{
+    box-sizing: border-box;
+    border: 10px dotted #1c2237;
+    text-align: center;
+    padding: 150px;
+    margin: 50px;
+}
+
+.formFieldButton{
+    margin-top: 30px;
+}

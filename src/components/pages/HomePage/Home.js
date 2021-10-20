@@ -5,12 +5,12 @@ import { homeObjOne, homeObjTwo, homeObjThree } from "./Data";
 
 function Home() {
   return (
-    <>
+    <div className = '/home'>
       <HeroSection {...homeObjOne} />
       <HeroSection {...homeObjTwo} />
       {/*<Pricing />*/}
       <HeroSection {...homeObjThree} />
-    </>
+    </div>
   );
 }
 
