@@ -7,7 +7,7 @@ import Login from './components/pages/LoginPage/Login';
 import Register from './components/pages/RegisterPage/Register';
 import Footer from './components/pages/Footer/Footer'
 
-
+//Routes contain path with different redirections when one click on a link and/or button
 function App() {
   return (
     <Router>

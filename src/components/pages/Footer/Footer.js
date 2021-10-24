@@ -11,6 +11,14 @@ import {
 } from 'react-icons/fa';
 import { MdMedication } from 'react-icons/md';
 
+//The Footer has any additional information that can be seen. 
+//The footer can also contain external links.
+
+/* The footer is divided in multiple containers and basic HTML tags.
+   They vary between some body text, titles, a form, and multiple icons
+   which link to their respective sites. 
+*/
+
 function Footer() {
   return (
     <div className='footer-container'>

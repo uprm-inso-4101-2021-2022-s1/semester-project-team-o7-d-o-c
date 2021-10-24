@@ -6,7 +6,8 @@ const Styles = ['button--primary', 'button--outline']
 const Sizes = ['button--medium', 'button--large', 'button--mobile', 'button--wide']
 
 const Color = ['primary', 'blue', 'red', 'green']
-
+//The Button is created, along with different parameters and behaviors that can be applied in any file; 
+//colors are also included.
 export const Button = ({
     children,
     type, 
