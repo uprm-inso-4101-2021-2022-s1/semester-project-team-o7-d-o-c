@@ -1,6 +1,5 @@
 import React from "react";
 import HeroSection from "../../HeroSection";
-import Pricing from "../../Pricing";
 import { homeObjOne, homeObjTwo, homeObjThree } from "./Data";
 
 function Home() {  //From the HeroSection files, the tags are included here so the text and different sections
