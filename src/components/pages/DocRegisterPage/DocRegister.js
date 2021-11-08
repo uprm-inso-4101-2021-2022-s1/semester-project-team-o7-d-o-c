@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class Register extends Component {
+class DocRegister extends Component {
   constructor() {
     super();
 
@@ -9,6 +9,8 @@ class Register extends Component {
       email: "",
       password: "",
       name: "",
+      phoneNumber: "",
+      officeName: "",
       hasAgreed: false,
     };
 
@@ -35,10 +37,10 @@ class Register extends Component {
 
   render() {
     return (
-      <Link to="/register">
+      <Link to="/register_doc">
         <div className="formCenter">
           <form onSubmit={this.handleSubmit} className="formFields">
-            <h1>Welcome! Please fill the information below!</h1>
+              <h1>Welcome, Doctor! Please fill the information below!</h1>
             <div className="formField">
               <h3 className="formFieldLabel" htmlFor="name">
                 Full Name
@@ -85,14 +87,44 @@ class Register extends Component {
             </div>
 
             <div className="formField">
+                <h3 className="formFieldLabel" htmlFor="phoneNumber">
+                    Phone Number
+                </h3>
+                <input 
+                type="phoneNumber"
+                id="phoneNumber"
+                className="formFieldInput"
+                placeholder="Enter your Phone Number"
+                name="phoneNumber"
+                value={this.state.phoneNumber}
+                onChange={this.handleChange}
+                 />
+            </div>
+
+            <div className="formField">
+                <h3 className="formFieldLabel" htmlFor="officeName">
+                    Office Name
+                </h3>
+                <input 
+                type="officeName" 
+                id="officeName"
+                className="formFieldInput"
+                placeholder="Enter your Office Name"
+                name="officeName"
+                value={this.state.officeName}
+                onChange={this.handleChange}
+                />
+            </div>
+
+            <div className="formField">
               <button className="formFieldButton">Register</button>{" "}
               <Link to="/login" className="formFieldLink">
                 I'm already member
               </Link>
             </div>
             <div>
-              <Link to="/register_doc" className="formFieldLink">
-                I'm a doctor
+              <Link to="/register" className="formFieldLink">
+                I'm a patient
               </Link>
             </div>
           </form>
@@ -101,4 +133,4 @@ class Register extends Component {
     );
   }
 }
-export default Register;
+export default DocRegister;

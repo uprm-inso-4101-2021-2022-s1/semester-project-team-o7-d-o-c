@@ -5,7 +5,8 @@ import Home from './components/pages/HomePage/Home';
 import Calendar from './components/pages/CalendarPage/Calendar';
 import Login from './components/pages/LoginPage/Login';
 import Register from './components/pages/RegisterPage/Register';
-import Footer from './components/pages/Footer/Footer'
+import Footer from './components/pages/Footer/Footer';
+import DocRegister from './components/pages/DocRegisterPage/DocRegister';
 
 //Routes contain path with different redirections when one click on a link and/or button
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/calendar' component={Calendar}/>
         <Route exact path = '/login' component = {Login}/>
         <Route exact path = '/register' component = {Register}/>
+        <Route exact path = '/register_doc' component = {DocRegister}/>
       </Switch>
       <Footer/>
     </Router>

@@ -3,6 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 import './Login.css'
 import logo from "../../../Images/INSO_LOGO_noBG (1).png"
 
+
+
+
 class Login extends Component {
   constructor() {
     super();
@@ -39,6 +42,9 @@ class Login extends Component {
             <div className="formCenter">
                 <form className="formField" onSubmit={this.handleSubmit}>
                 <div className="formField">
+                  <h1>
+                    Welcome back! Let's get you in by filling the information below.
+                  </h1>
                     <h3 className="formFieldLabel" htmlFor="email">
                     E-Mail Address
                     </h3>
@@ -74,6 +80,12 @@ class Login extends Component {
                     Create an account
                     </Link>
                 </div>
+
+                {/* <div className='formField'>
+                  <Link to="/register" className="formFieldLink"> //Change this to being redirected to Doctor Login 
+                    I'm a doctor
+                    </Link>
+                </div> */}
                 </form>
             </div>
         </NavLink>
