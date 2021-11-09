@@ -1,0 +1,7 @@
+.formCenter{
+    box-sizing: border-box;
+    border: 10px dotted #1c2237;
+    text-align: center;
+    padding: 130px;
+    margin: 50px;
+}
