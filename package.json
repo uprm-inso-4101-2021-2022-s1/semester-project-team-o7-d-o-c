@@ -5,6 +5,9 @@
   "private": true,
   "dependencies": {
     "-": "0.0.1",
+    "@devexpress/dx-react-core": "^2.7.6",
+    "@devexpress/dx-react-scheduler": "^2.7.6",
+    "@devexpress/dx-react-scheduler-material-ui": "^2.7.6",
     "@fullcalendar/daygrid": "^5.10.0",
     "@fullcalendar/react": "^5.10.0",
     "@testing-library/jest-dom": "^5.14.1",
