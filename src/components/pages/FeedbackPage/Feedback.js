@@ -92,7 +92,7 @@ class Feedback extends Component {
                             >Submit</button>
                             <br/>
                             <Link to="/officeFeedback" className="formFieldLink">
-                                See office feedback
+                                <button className="formFieldButton">See Office Feedback</button>{""}
                             </Link>
                         </div>
                     </form>
