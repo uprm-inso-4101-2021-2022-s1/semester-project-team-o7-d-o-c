@@ -7,6 +7,7 @@ import logo from "../../../Images/INSO_LOGO_noBG (1).png"
 
 
 class Login extends Component {
+  
   constructor() {
     super();
 
@@ -28,13 +29,15 @@ class Login extends Component {
       [name]: value
     });
   }
-
+  
   handleSubmit(event) {
     event.preventDefault();
 
     console.log("The form was submitted with the following data:");
     console.log(this.state);
   }
+ 
+  
 
   render() {
     return (
@@ -75,17 +78,12 @@ class Login extends Component {
                 </div>
 
                 <div className="formField">
-                    <button className="formFieldButton">Sign In</button>{" "}
+                  
+                    <button className="formFieldButton">Sign In</button>
                     <Link to="/register" className="formFieldLink">
-                    Create an account
+                    <button className="formFieldButton">Register</button>
                     </Link>
                 </div>
-
-                {/* <div className='formField'>
-                  <Link to="/register" className="formFieldLink"> //Change this to being redirected to Doctor Login 
-                    I'm a doctor
-                    </Link>
-                </div> */}
                 </form>
             </div>
         </NavLink>

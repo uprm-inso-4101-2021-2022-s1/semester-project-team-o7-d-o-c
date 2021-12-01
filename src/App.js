@@ -8,6 +8,7 @@ import Register from './components/pages/RegisterPage/Register';
 import Footer from './components/pages/Footer/Footer';
 import DocRegister from './components/pages/DocRegisterPage/DocRegister';
 import Feedback from './components/pages/FeedbackPage/Feedback'
+import ProfilePage from './components/pages/ProfilePage/ProfilePage'
 
 //Routes contain path with different redirections when one click on a link and/or button
 function App() {
@@ -21,11 +22,12 @@ function App() {
         <Route exact path = '/register' component = {Register}/>
         <Route exact path = '/register_doc' component = {DocRegister}/>
         <Route exact path='/feedback' component={Feedback}/>
+        <Route exact path='/user_prof' component={ProfilePage}/>
       </Switch>
       <Footer/>
     </Router>
-    
   );
+  
 }
 
 export default App;

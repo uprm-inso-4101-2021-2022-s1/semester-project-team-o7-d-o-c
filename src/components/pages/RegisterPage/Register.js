@@ -85,14 +85,14 @@ class Register extends Component {
             </div>
 
             <div className="formField">
-              <button className="formFieldButton">Register</button>{" "}
+              <button className="formFieldButton">Register</button>{""}
               <Link to="/login" className="formFieldLink">
-                I'm already member
+              <button className="formFieldButton">I have an Existing Account</button>{""}
               </Link>
             </div>
             <div>
               <Link to="/register_doc" className="formFieldLink">
-                I'm a doctor
+              <button className="formFieldButton">I'm a Doctor</button>{""}
               </Link>
             </div>
           </form>
